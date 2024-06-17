@@ -1,0 +1,58 @@
+doctype html
+html
+  head
+    title Shivani Dance Academy
+    style
+      include ../static/style.css
+  body
+    nav#navbar
+        ul 
+            div#logo 
+                img(src="/static/img/logo3.png")               
+                | HDA 
+
+            li #[a(href="/") Home]  
+            li #[a(href="/") About] 
+            li #[a(href="/") Service]  
+            li #[a(href="/") class info]
+            li #[a(href="/") Contact Us]
+    section#introsection 
+        div Welcome to Shivani's Dance Acedemy 
+        div.small Eat Sleep Dance Repeat
+    
+    section#missionSection 
+        h2 Our Mission
+        div.card
+            h3 Dance perfection
+            div.card-box 
+                div.card-img
+                    img(src="/static/img/logo4.png")
+                div.card-content 
+                    p This is the best dance acedemy of the india 
+        div.card
+            h3 Dance the way you like 
+            div.card-box 
+                div.card-img
+                    img(src="/static/img/logo2.png")
+                div.card-content 
+                    p This is the best dance acedemy of the india 
+        div.card
+            h3 Expert Teaching
+            div.card-box 
+                div.card-img
+                    img(src="/static/img/logo6.png")
+                div.card-content 
+                    p This is the best dance acedemy of the india 
+
+    section#sponsorsSection 
+        h2 Our Sponsors
+        div#sponsors
+        img(src="/static/img/M2.png",alt="Sponsor Image",class="spImage")
+        img(src="/static/img/hp.png",alt="Sponsor Image",class="spImage")
+        img(src="/static/img/logo.png",alt="Sponsor Image",class="spImage")
+        img(src="/static/img/Skyp.png",alt="Sponsor Image",class="spImage")
+
+    footer#footer 
+        |  copyright © 2024 ShivaniDanceAcedemy.com | All right reserved
+    script
+      include ../static/index.js
